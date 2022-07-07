@@ -1,0 +1,22 @@
+8.4
+URL (Uniform Resource Locator)
+
+protocol / hostname (port) / path
+
+pathname / query 
+
+Request Methods
+GET GET
+POST create
+PUT replace
+DELETE DELETE
+PATCH replace partially
+HEAD get without body
+OPTIONS all supported methods for URL
+TRACE echoes the received Request
+
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+
+- 멱등성
+https://developer.mozilla.org/ko/docs/Glossary/Idempotent 

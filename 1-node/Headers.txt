@@ -1,0 +1,5 @@
+8.5 Headers의 오해와 진실
+
+HTTP 특징
+1. Stateless protocol
+2. Sessions & Cookies
