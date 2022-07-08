@@ -30,6 +30,7 @@ const server = http.createServer((req, res) => {
     } else {
         fs.createReadStream('./html/not-found.html').pipe(res);
     }
-    res.end();
+// res.end(); -> 요청자에게 응답을 하고 나면, 세션을 종료하는 작업. 어떤 데이터도 담지 않고 보낼 수 있으며,
+// 에러 페이지가 필요할 땐 데이터를 담지 않고 쓸 수 있음.
 });
 server.listen(8080);
