@@ -1,3 +1,5 @@
+// npm init --yes
+// npm i express@5.0.0-alpha.8
 import express from 'express';
 import fs from 'fs';
 import fsAsync from 'fs/promises';
